@@ -43,3 +43,13 @@ receipt, the paper says so.
 - [SuperInstance/quilt-jepa](https://github.com/SuperInstance/quilt-jepa) — WP-04
 - [SuperInstance/jev-garden](https://github.com/SuperInstance/jev-garden) — WP-02
 - [SuperInstance/discovery-mad-libs](https://github.com/SuperInstance/discovery-mad-libs) · [madlibs-gan](https://github.com/SuperInstance/madlibs-gan) · [madlibs-gan-turbovec](https://github.com/SuperInstance/madlibs-gan-turbovec) — WP-05
+
+## Standing rule — control rungs and playable twins
+
+From WP-11 onward (fleet rule, adopted wave-68): every white paper ships with
+(i) an **Evidence section whose control rung must stay flat** — a listed
+control observation that must not move, receipted, so a regression reads as a
+regression (purpose-loops' 99→99→99 negative control is the model); and
+(ii) **a playable twin where feasible** — a runnable artifact that lets a
+reader perturb inputs and watch the run evolve (Bridge 5 as a standing rule,
+not a one-off project). A paper with neither is a claim, not a result.
