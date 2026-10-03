@@ -25,6 +25,7 @@ shaping the environment that cultivated the right decision.*
 | WP-09 | [The Spoken & The Unspoken](./papers/WP-09-spoken-unspoken.md) | resonance harness | soft nudges accumulate and resonate; language arrives last, as clothing |
 | WP-10 | [The Fleet](./papers/WP-10-the-fleet.md) | working method | keeper waves, table-reads, push discipline, zero-loss recovery |
 | WP-11 | [Beyond the Horizon](./papers/WP-11-beyond-the-horizon.md) | bridges | quantized exocortex memory, warm-started resonance, cell-sheet GAN games, the bone library, playable papers |
+| WP-12 | [The Band Law](./papers/WP-12-band-law.md) · [playable twin](./playable/WP-12/) | madlibs-jev × purpose-loops × reflex-router | one comparator over a region — REST / ESCALATE / OPEN — proven on both surfaces' real ledgers (10/10 + 7/7), vendor-pinned |
 
 ## How to read
 
