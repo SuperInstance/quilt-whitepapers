@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # (1) secret-shape scan over the papers and the index. Filenames only
+      # (-l): a hit must fail the build, never print the secret itself.
+      - name: secret-shape scan
+        run: |
+          if grep -rlE "gsk_[A-Za-z0-9]{20}|ghp_[A-Za-z0-9]{20}|cfut_[A-Za-z0-9]{20}|moth_[A-Za-z0-9]{20}|apikey_[a-f0-9]{40}" papers/ README.md; then
+            echo "::error::secret-shaped token found in the files listed above"
+            exit 1
+          fi
+          echo "no secret-shaped tokens"
+      # (2) papers index: every WP-*.md must be referenced from README.md
+      - name: papers-index check
+        run: |
+          miss=0
+          for f in papers/WP-*.md; do
+            b=$(basename "$f")
+            if ! grep -q "$b" README.md; then echo "MISSING from README index: $f"; miss=1; fi
+          done
+          exit $miss
