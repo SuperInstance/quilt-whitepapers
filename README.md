@@ -24,6 +24,7 @@ shaping the environment that cultivated the right decision.*
 | WP-08 | [Purpose-Loops](./papers/WP-08-purpose-loops.md) | RSI loops | the loop is the cultivator: attempt→measure→compile→reshape, receipted cost curves |
 | WP-09 | [The Spoken & The Unspoken](./papers/WP-09-spoken-unspoken.md) | resonance harness | soft nudges accumulate and resonate; language arrives last, as clothing |
 | WP-10 | [The Fleet](./papers/WP-10-the-fleet.md) | working method | keeper waves, table-reads, push discipline, zero-loss recovery |
+| WP-11 | [Beyond the Horizon](./papers/WP-11-beyond-the-horizon.md) | bridges | quantized exocortex memory, warm-started resonance, cell-sheet GAN games, the bone library, playable papers |
 
 ## How to read
 
